@@ -1,0 +1,26 @@
+<div class="container mx-auto mb-2">
+    <div>Genre</div>
+
+
+    <div class="space-x-2">
+        <span *ngFor="let genre of genres" class="badge text-bg-primary ">{{genre.name}}</span>
+    </div>
+
+</div>
+
+
+<div class="container mx-auto">
+    <div class="row row-cols-1 row-cols-md-4 g-4">
+        <div *ngFor="let item of movies" class="col">
+            <div class="card cursor-pointer">
+                <img [src]="'https://image.tmdb.org/t/p/w500'+item.poster_path"
+                    class="card-img-top h-[250px] object-cover" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title font-bold"> {{item?.original_title}} </h5>
+                    <p class="card-text text-gray-500 text-sm">{{item?.overview}}</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
