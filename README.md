@@ -26,7 +26,6 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-
-eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJjM2EwN2ZmOThhYWViMjA2NWViZWUzMjFiZjA4ZDIzYSIsInN1YiI6IjViNGE4YTU4YzNhMzY4MjNkZTAxYWMwMyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.8V0DHrLl2gTaibAg93kg0Lt7ldmd7PpjSaop6Uo4y14
+## API Endpoint
 
 https://api.themoviedb.org/3/movie/now_playing
